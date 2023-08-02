@@ -1,6 +1,7 @@
 // allows you to easily extract values from Objects or Arrays and assign to new values or even assign default values to undefined properties
 
 // Destructuring
+// Rest operator is used for passing multiple argmunts 
 // let arr = [1 , 2 , 3 , 4 , 5 , 6];
 // let [a , b , ,...rest] = arr;
 
@@ -10,9 +11,9 @@
 // console.log(a , b)
 
 
-// Spread Operator
+// Spread Operator is used for copying the new element in an existing element 
 // For Converting An array to obj 
-let arr1 = [1 , 2 ,3]
+let arr1 = [1 , 2 , 3]
 let obj1 = {...arr1}
 
 // console.log(obj1)
